@@ -14,16 +14,16 @@ Ctrl + @ でターミナルを起動
 `cd FastAPI_APP`  
 
 仮想環境の作成  
-`python -m venv env`  
+`python3 -m venv env`  
 
 (仮想環境の作成に失敗した場合)  
-`sudo apt install python3-venv`  
+`sudo apt install python3.xx-venv`  
 
 仮想環境を有効化  
 `. env/bin/activate`  
 
 ライブラリをインストール  
-`pip install -r requierment.txt`  
+`pip install -r requirement.txt`  
 
 (ライブラリのインストールに失敗した場合)  
 `sudo apt install python3-pip`  
